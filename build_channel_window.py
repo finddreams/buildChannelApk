@@ -1,10 +1,9 @@
 import os
 
-
 version = "1.0.0"  # 版本号
 channelOutFile = "1.0.0"  # 输出的渠道文件名
 buildToolFile = "E:/sdk/build-tools/26.0.2"  #sdk 编译环境的位置
-unSignApkName = "app-release.apk"  # 没有签名的apk
+unSignApkName = "app-release.apk"  # 360加固之后没有签名的apk
 apkName = "App_" + version + ".apk"  # 签名之后的名称
 keyStoreName = "andmodule.jks"  # 签名文件的名称
 apkFile = os.path.dirname(os.path.realpath(__file__))+"/"  # 获取到当前py文件的父目录
